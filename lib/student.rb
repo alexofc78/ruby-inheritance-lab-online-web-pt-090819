@@ -7,8 +7,8 @@ class Student < User
   end
   
   
-  def learn(String)
-    @knowledge << String
+  def learn(string)
+    @knowledge << string
   end
   
   def self.knowledge 
